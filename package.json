@@ -1,0 +1,21 @@
+{
+  "name": "demo-read-csv",
+  "version": "0.0.1",
+  "description": "This is a proof of concept for reading a csv and outputting translations.json files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "csv",
+    "reader",
+    "demo"
+  ],
+  "author": "Greg DeMaderios",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "fs": "^0.0.1-security",
+    "highland": "^2.13.5"
+  }
+}
